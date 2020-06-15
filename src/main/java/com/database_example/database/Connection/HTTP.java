@@ -17,7 +17,7 @@ public class HTTP {
 
     private String buildURL(String word) throws IOException {
         String s = Mapping.getInstance(word);
-        return "https://finnhub.io/api/v1/quote?symbol=" + s + ".NS&token=brceju7rh5rap841k3vg";
+        return "https://finnhub.io/api/v1/quote?symbol=" + s + ".NS&token=";
     }
 
     private String getRequest(String word) throws IOException {
