@@ -11,7 +11,7 @@ public class Mapping {
 
     private Mapping() throws IOException {
         map = new HashMap<>();
-        File file = new File("C:\\Users\\YASH\\IdeaProjects\\Database\\src\\main\\java\\com\\database_example\\database\\StaticData\\EQUITY_L.csv");
+        File file = new File("src/main/java/com/database_example/database/StaticData/EQUITY_L.csv");
         System.out.println("File Found");
         BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
         String s;

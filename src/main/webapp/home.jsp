@@ -9,12 +9,10 @@
     <div class="form">
         <form class="login-form" method = "post" action = "addCustomer">
             <label for="firstName"></label>
-            <input type="text" placeholder = "firstName" id="firstName" name="firstName">
-
+            <input type="text" placeholder = "First Name" id="firstName" name="firstName">
             <label for="lastName"></label>
-            <input type="lastName" placeholder = "lastName" id="lastName" name="lastName">
-
-            <input type="submit">Login</input>
+            <input type="text" placeholder = "Last Name" id="lastName" name="lastName">
+            <input type="submit">
         </form>
     </div>
 </div>

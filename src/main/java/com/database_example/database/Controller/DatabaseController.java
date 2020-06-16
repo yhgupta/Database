@@ -19,17 +19,8 @@ public class DatabaseController {
 
     final CustomerRepository customerRepository;
 
-//    @RequestMapping("/addCustomerData")
-//    public String addCustomerData(CustomerTX customerTX) {
-//        customerRepository.save(customerTX);
-//        return "register.html";
-//    }
-
     @RequestMapping("/addCustomer")
-    public String addCustomer(@RequestParam String firstName, @RequestParam String lastName) {
-        Customer customer = new Customer();
-        customer.setFirstName(firstName);
-        customer.setLastName(lastName);
+    public String addCustomer(Customer customer) {
         customerRepository.save(customer);
         return "home.jsp";
     }
