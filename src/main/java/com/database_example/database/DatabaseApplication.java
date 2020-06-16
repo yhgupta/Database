@@ -15,10 +15,10 @@ public class DatabaseApplication {
     }
 
     @Bean
-    CommandLineRunner runner(CustomerRepository customerRepository){
+    CommandLineRunner runner(CustomerRepository customerRepository) {
         return args -> {
-            customerRepository.save(new Customer("YASH","GUPTA"));
-            customerRepository.save(new Customer("ANANYA YASH","GUPTA"));
+            customerRepository.save(new Customer("YASH GUPTA", "yhgupta0408@gmail.com", "uyfvisudb", "uyfvisudb"));
+            customerRepository.save(new Customer("ANANYA YASH GUPTA", "ananyajain2606@gmail.com", "rfaashbvu", "rfaashbvu"));
         };
     }
 

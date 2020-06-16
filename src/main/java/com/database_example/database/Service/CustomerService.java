@@ -2,6 +2,7 @@ package com.database_example.database.Service;
 
 import com.database_example.database.Data.Customer;
 import com.database_example.database.Interface.CustomerRepository;
+import org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration;
 import org.springframework.stereotype.Service;
 
 @Service

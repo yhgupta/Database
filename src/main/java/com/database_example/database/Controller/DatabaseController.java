@@ -14,7 +14,7 @@ public class DatabaseController {
 
     @RequestMapping("/")
     public String home() {
-        return "home.jsp";
+        return "register.html";
     }
 
     final CustomerRepository customerRepository;
