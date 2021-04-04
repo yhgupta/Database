@@ -18,7 +18,7 @@ public class DatabaseApplication {
     CommandLineRunner runner(CustomerRepository customerRepository) {
         return args -> {
             customerRepository.save(new Customer("YASH GUPTA", "yhgupta0408@gmail.com", "uyfvisudb", "uyfvisudb"));
-            customerRepository.save(new Customer("ANANYA YASH GUPTA", "ananyajain2606@gmail.com", "rfaashbvu", "rfaashbvu"));
+            customerRepository.save(new Customer("ANANYA JAIN", "ananyajain2606@gmail.com", "rfaashbvu", "rfaashbvu"));
         };
     }
 
@@ -26,7 +26,6 @@ public class DatabaseApplication {
 //    CommandLineRunner runner(CustomerRepository customerRepository){
 //        return args -> {
 //            customerRepository.save(new CustomerTX("YASH GUPTA","yhgupta0408@gmail.com","wugfsidhb","wugfsidhb"));
-//            customerRepository.save(new CustomerTX("ANANYA YASH GUPTA","ananyajain2606@gmail.com","wrtwetwert","wrtwetwert"));
 //        };
 //    }
 }
